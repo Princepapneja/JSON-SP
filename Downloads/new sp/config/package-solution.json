@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "new-sp-client-side-solution",
+    "id": "4cb8dc19-e918-4920-b462-c461a656f842",
+    "version": "10.12.1999.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "new-sp description"
+      },
+      "longDescription": {
+        "default": "new-sp description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "new-sp Feature",
+        "description": "The feature that activates elements of the new-sp solution.",
+        "id": "95e68888-4566-4dbe-95bb-5d9db2af2c07",
+        "version": "10.12.1999.1"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/new-sp.sppkg"
+  }
+}
